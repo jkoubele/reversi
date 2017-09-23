@@ -15,8 +15,7 @@
   
   canvas.onmousedown = handleMouseDown;
   canvas.onmousemove=handleMouseMove;
- var mode='play';mode='gameOver';
- var mess="White's turn";
+ var mode='play'; var mess="White's turn";
  var mouseX=0;
  var mouseY=0;
 function handleMouseMove(event){
